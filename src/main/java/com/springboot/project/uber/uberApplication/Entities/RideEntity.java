@@ -1,15 +1,12 @@
 package com.springboot.project.uber.uberApplication.Entities;
 
-import com.fasterxml.jackson.annotation.JsonCreator;
 import com.springboot.project.uber.uberApplication.Entities.Enums.PaymentMethods;
 import com.springboot.project.uber.uberApplication.Entities.Enums.RideStatus;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
 import org.hibernate.annotations.CreationTimestamp;
-
-import java.awt.*;
-import java.sql.Driver;
+import org.locationtech.jts.geom.Point;
 import java.time.LocalDateTime;
 
 @Entity
@@ -40,6 +37,7 @@ public class RideEntity {
     private LocalDateTime rideStartedAt;
     private LocalDateTime rideEndedAt;
     private String OTP;
+
 
 
 }
