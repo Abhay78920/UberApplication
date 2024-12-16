@@ -1,6 +1,6 @@
 package com.springboot.project.uber.uberApplication.DTOs;
 
-import com.springboot.project.uber.uberApplication.Entities.Enums.PaymentMethods;
+import com.springboot.project.uber.uberApplication.Entities.Enums.PaymentMethod;
 import com.springboot.project.uber.uberApplication.Entities.Enums.RideRequestStatus;
 import com.springboot.project.uber.uberApplication.Entities.RiderEntity;
 import org.locationtech.jts.geom.Point;
@@ -13,6 +13,6 @@ public class RideRequestDto {
     private Point dropOffLocation;
     private RiderEntity riderEntity;
     private LocalDateTime requestedTime;
-    private PaymentMethods paymentMethod;
+    private PaymentMethod paymentMethod;
     private RideRequestStatus rideRequestStatus;
 }

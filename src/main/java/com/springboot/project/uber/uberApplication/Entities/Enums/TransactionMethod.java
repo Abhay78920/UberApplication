@@ -1,5 +1,5 @@
 package com.springboot.project.uber.uberApplication.Entities.Enums;
 
-public enum PaymentMethods {
-    CASH, WALLET
+public enum TransactionMethod {
+    BANKING, RIDE
 }

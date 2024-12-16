@@ -59,6 +59,11 @@
 			<artifactId>hibernate-spatial</artifactId>
 			<version>6.6.3.Final</version>
 		</dependency>
+		<dependency>
+			<groupId>org.modelmapper</groupId>
+			<artifactId>modelmapper</artifactId>
+			<version>3.2.2</version>
+		</dependency>
 
 	</dependencies>
 

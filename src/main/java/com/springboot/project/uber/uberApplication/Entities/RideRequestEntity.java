@@ -1,6 +1,6 @@
 package com.springboot.project.uber.uberApplication.Entities;
 
-import com.springboot.project.uber.uberApplication.Entities.Enums.PaymentMethods;
+import com.springboot.project.uber.uberApplication.Entities.Enums.PaymentMethod;
 import com.springboot.project.uber.uberApplication.Entities.Enums.RideRequestStatus;
 import jakarta.persistence.*;
 import lombok.Getter;
@@ -26,7 +26,7 @@ public class RideRequestEntity {
     @CreationTimestamp
     private LocalDateTime requestedTime;
     @Enumerated(EnumType.STRING)
-    private PaymentMethods paymentMethod;
+    private PaymentMethod paymentMethod;
     @Enumerated(EnumType.STRING)
     private RideRequestStatus rideRequestStatus;
 

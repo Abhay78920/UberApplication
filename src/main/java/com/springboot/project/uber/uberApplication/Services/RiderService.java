@@ -16,5 +16,5 @@ public interface RiderService {
 
     RiderDto getDriverProfile();
 
-    List<RideDto> getAllDriverRides();
+    List<RideDto> getAllRiderRides();
 }
